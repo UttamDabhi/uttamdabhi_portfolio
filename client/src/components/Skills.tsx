@@ -113,17 +113,17 @@ export default function Skills() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          <div className="inline-flex items-center gap-8 bg-white dark:bg-slate-800 rounded-full px-8 py-4 shadow-lg">
+          <div className="w-full max-w-2xl mx-auto grid grid-cols-3 items-center bg-white dark:bg-slate-800 rounded-3xl px-3 sm:px-8 py-4 shadow-lg">
             <div className="text-center">
               <div className="text-2xl font-bold text-primary">12+</div>
               <div className="text-sm text-slate-600 dark:text-slate-400">Technologies</div>
             </div>
-            <div className="w-px h-12 bg-slate-200 dark:bg-slate-700"></div>
+            <div className="w-px h-10 bg-slate-200 dark:bg-slate-700 mx-auto"></div>
             <div className="text-center">
               <div className="text-2xl font-bold text-primary">2+</div>
               <div className="text-sm text-slate-600 dark:text-slate-400">Years Learning</div>
             </div>
-            <div className="w-px h-12 bg-slate-200 dark:bg-slate-700"></div>
+            <div className="w-px h-10 bg-slate-200 dark:bg-slate-700 mx-auto"></div>
             <div className="text-center">
               <div className="text-2xl font-bold text-primary">∞</div>
               <div className="text-sm text-slate-600 dark:text-slate-400">Growth Mindset</div>

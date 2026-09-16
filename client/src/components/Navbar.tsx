@@ -32,12 +32,23 @@ export default function Navbar() {
   }, []);
 
   const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-    setIsMenuOpen(false);
-  };
+  const element = document.getElementById(sectionId);
+
+  if (!element) return;
+
+  setIsMenuOpen(false);
+
+  setTimeout(() => {
+    const navbarHeight = 64;
+    const elementPosition =
+      element.getBoundingClientRect().top + window.scrollY;
+
+    window.scrollTo({
+      top: elementPosition - navbarHeight,
+      behavior: 'smooth',
+    });
+  }, 100);
+};
 
   const navItems = [
     { id: 'home', label: 'Home' },
