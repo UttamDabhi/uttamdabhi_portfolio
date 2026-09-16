@@ -33,7 +33,10 @@ export default function Home() {
   ];
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section
+  id="home"
+  className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20 sm:pt-24 lg:pt-28 pb-16"
+>
       {/* Enhanced Animated Background */}
       <div className="absolute inset-0 animated-bg opacity-5">
         <div className="absolute top-20 left-20 w-96 h-96 bg-blue-500/30 rounded-full mix-blend-multiply filter blur-xl animate-float"></div>

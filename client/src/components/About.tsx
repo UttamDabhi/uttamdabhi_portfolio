@@ -124,7 +124,7 @@ export default function About() {
               </motion.button>
 
               <a
-                href="https://drive.google.com/file/d/1yZNXpn3RZTzV31kEXKZ4ffg-5eMuRnTO/view?usp=sharing"
+                href="https://drive.google.com/file/d/1mzlpDtbck4sDDGdWlk0LeNJVa1J6oeeI/view?usp=sharing"
                 download
                 className="inline-block mt-4 sm:mt-0 px-6 py-3 bg-gradient-to-r from-blue-600 to-cyan-500 text-white rounded-lg font-semibold shadow-md hover:from-cyan-600 hover:to-blue-600 transition-all duration-300"
               >
